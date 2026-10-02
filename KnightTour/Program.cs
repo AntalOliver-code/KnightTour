@@ -28,9 +28,10 @@ namespace KnightTour
                                 x += 2;
                                 y += 1;
                                 memory.Add(y * board + x);
-                                Move(x, y, memory, board);
                                 Console.WriteLine($"x: {x}, y: {y}, memory: {string.Join(", ", memory)} case 0");
                                 Console.ReadLine();
+                                Move(x, y, memory, board);
+
                             }
                         }
                         break;
@@ -42,9 +43,9 @@ namespace KnightTour
                                 x += 2;
                                 y -= 1;
                                 memory.Add(y * board + x);
-                                Move(x, y, memory, board);
                                 Console.WriteLine($"x: {x}, y: {y}, memory: {string.Join(", ", memory)} case 1");
                                 Console.ReadLine();
+                                Move(x, y, memory, board);
                             }
                         }
                         break;
@@ -56,9 +57,11 @@ namespace KnightTour
                                 x -= 2;
                                 y += 1;
                                 memory.Add(y * board + x);
-                                Move(x, y, memory, board);
                                 Console.WriteLine($"x: {x}, y: {y}, memory: {string.Join(", ", memory)} case 2");
                                 Console.ReadLine();
+                                Move(x, y, memory, board);
+
+                                
                             }
                         }
                         break;
@@ -70,9 +73,10 @@ namespace KnightTour
                                 x -= 2;
                                 y -= 1;
                                 memory.Add(y * board + x);
-                                Move(x, y, memory, board);
                                 Console.WriteLine($"x: {x}, y: {y}, memory: {string.Join(", ", memory)} case 3");
                                 Console.ReadLine();
+                                Move(x, y, memory, board);
+                                
                             }
                         }
                         break;
@@ -84,9 +88,10 @@ namespace KnightTour
                                 y += 2;
                                 x += 1;
                                 memory.Add(y * board + x);
-                                Move(x, y, memory, board);
                                 Console.WriteLine($"x: {x}, y: {y}, memory: {string.Join(", ", memory)} case 4");
                                 Console.ReadLine();
+                                Move(x, y, memory, board);
+                                
                             }
                         }
                         break;
@@ -98,9 +103,10 @@ namespace KnightTour
                                 y += 2;
                                 x -= 1;
                                 memory.Add(y * board + x);
-                                Move(x, y, memory, board);
                                 Console.WriteLine($"x: {x}, y: {y}, memory: {string.Join(", ", memory)} case 5");
                                 Console.ReadLine();
+                                Move(x, y, memory, board);
+                                
                             }
                         }
                         break;
@@ -112,9 +118,10 @@ namespace KnightTour
                                 y -= 2;
                                 x += 1;
                                 memory.Add(y * board + x);
-                                Move(x, y, memory, board);
                                 Console.WriteLine($"x: {x}, y: {y}, memory: {string.Join(", ", memory)} case 6");
                                 Console.ReadLine();
+                                Move(x, y, memory, board);
+                                
                             }
                         }
                         break;
@@ -126,9 +133,10 @@ namespace KnightTour
                                 y -= 2;
                                 x -= 1;
                                 memory.Add(y * board + x);
-                                Move(x, y, memory, board);
                                 Console.WriteLine($"x: {x}, y: {y}, memory: {string.Join(", ", memory)} case 7");
                                 Console.ReadLine();
+                                Move(x, y, memory, board);
+                                
                             }
                         }
                         break;
