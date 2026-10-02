@@ -137,6 +137,7 @@ namespace KnightTour
             memory.Add(0);
             Move(x, y, memory, board);
             Console.WriteLine(memory);
+            Console.ReadLine();
         }
     }
 }
