@@ -148,7 +148,6 @@ namespace KnightTour
             Console.Clear();
             Console.WriteLine("Calculating the knight's tour...");
             MyVariables.memory.Add(0);
-
             Move();
             Console.Clear();
             Console.WriteLine($"Final order of moves: {string.Join(", ", MyVariables.memory)}");
